@@ -1,0 +1,6 @@
+# only partial schematics are kept here, so any project files, library tables should be ignored
+*.lib
+*.bak
+*.pro
+fp-lib-table
+sym-lib-table
