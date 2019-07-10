@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:LPC82X_JHI33-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -15,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SquantorConnectors:JTAG_2X05 J3
+L SquantorConnectors:JTAG_2X05 J?
 U 1 1 5D2859FE
 P 3400 2550
-F 0 "J3" H 3400 3037 60  0000 C CNN
+F 0 "J?" H 3400 3037 60  0000 C CNN
 F 1 "JTAG_2X05" H 3400 2931 60  0000 C CNN
 F 2 "SquantorConnectors:Header-0127-2X05-H006" H 3400 2700 60  0001 C CNN
 F 3 "" H 3400 2700 60  0001 C CNN
@@ -40,10 +39,10 @@ Wire Wire Line
 Wire Wire Line
 	3900 2350 3950 2350
 $Comp
-L Device:R R4
+L Device:R R?
 U 1 1 5D285A0C
 P 2700 2350
-F 0 "R4" V 2650 2200 50  0000 C CNN
+F 0 "R?" V 2650 2200 50  0000 C CNN
 F 1 "100" V 2700 2350 50  0000 C CNN
 F 2 "SquantorRcl:R_0402_hand" V 2630 2350 50  0001 C CNN
 F 3 "~" H 2700 2350 50  0001 C CNN
@@ -51,10 +50,10 @@ F 3 "~" H 2700 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R5
+L Device:R R?
 U 1 1 5D285A12
 P 2700 2450
-F 0 "R5" V 2650 2300 50  0000 C CNN
+F 0 "R?" V 2650 2300 50  0000 C CNN
 F 1 "100" V 2700 2450 50  0000 C CNN
 F 2 "SquantorRcl:R_0402_hand" V 2630 2450 50  0001 C CNN
 F 3 "~" H 2700 2450 50  0001 C CNN
@@ -70,10 +69,10 @@ Wire Wire Line
 Wire Wire Line
 	2550 2350 2450 2350
 $Comp
-L Device:R R6
+L Device:R R?
 U 1 1 5D285A1E
 P 2700 2750
-F 0 "R6" V 2650 2600 50  0000 C CNN
+F 0 "R?" V 2650 2600 50  0000 C CNN
 F 1 "100" V 2700 2750 50  0000 C CNN
 F 2 "SquantorRcl:R_0402_hand" V 2630 2750 50  0001 C CNN
 F 3 "~" H 2700 2750 50  0001 C CNN
@@ -87,10 +86,10 @@ Wire Wire Line
 Text Label 2450 2750 2    50   ~ 0
 RESET
 $Comp
-L Device:R R3
+L Device:R R?
 U 1 1 5D285A27
 P 2700 2100
-F 0 "R3" V 2650 1950 50  0000 C CNN
+F 0 "R?" V 2650 1950 50  0000 C CNN
 F 1 "100k" V 2700 2100 50  0000 C CNN
 F 2 "SquantorRcl:R_0402_hand" V 2630 2100 50  0001 C CNN
 F 3 "~" H 2700 2100 50  0001 C CNN
@@ -98,10 +97,10 @@ F 3 "~" H 2700 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R?
 U 1 1 5D285A2D
 P 2700 2000
-F 0 "R2" V 2650 1850 50  0000 C CNN
+F 0 "R?" V 2650 1850 50  0000 C CNN
 F 1 "100k" V 2700 2000 50  0000 C CNN
 F 2 "SquantorRcl:R_0402_hand" V 2630 2000 50  0001 C CNN
 F 3 "~" H 2700 2000 50  0001 C CNN
@@ -121,10 +120,10 @@ Wire Wire Line
 Wire Wire Line
 	2550 2000 2450 2000
 $Comp
-L Device:R R1
+L Device:R R?
 U 1 1 5D285A39
 P 2700 1900
-F 0 "R1" V 2650 1750 50  0000 C CNN
+F 0 "R?" V 2650 1750 50  0000 C CNN
 F 1 "100K" V 2700 1900 50  0000 C CNN
 F 2 "SquantorRcl:R_0402_hand" V 2630 1900 50  0001 C CNN
 F 3 "~" H 2700 1900 50  0001 C CNN
